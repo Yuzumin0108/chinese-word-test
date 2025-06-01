@@ -2,9 +2,6 @@
   command = "echo 'Static site - no build needed'"
   publish = "."
 
-[build.environment]
-  NODE_VERSION = "18.16.0"
-
 [dev]
-  command = "npm run dev"
+  command = "echo 'Static site - no dev server needed'"
   port = 3000
