@@ -1,6 +1,7 @@
 [build]
   command = "echo 'Static site - no build needed'"
-  publish = "build"
+  base = "/"
+  publish = "/"
 
 [dev]
   command = "echo 'Static site - no dev server needed'"
