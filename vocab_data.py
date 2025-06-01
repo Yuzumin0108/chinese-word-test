@@ -1,0 +1,110 @@
+"""
+中国語語彙データを管理するモジュール
+"""
+
+HSK1_VOCAB = [
+    {"cn": "你好", "pinyin": "nǐ hǎo", "jp": "こんにちは"},
+    {"cn": "谢谢", "pinyin": "xiè​xiè", "jp": "ありがとう"},
+    {"cn": "再见", "pinyin": "zài​jiàn", "jp": "さようなら"},
+    {"cn": "朋友", "pinyin": "péng​you", "jp": "友達"},
+    {"cn": "学习", "pinyin": "xué​xí", "jp": "学習する"},
+    {"cn": "工作", "pinyin": "gōng​zuò", "jp": "働く"},
+]
+
+HSK2_VOCAB = [
+    {"cn": "问题", "pinyin": "wèn​tí", "jp": "問題"},
+    {"cn": "回答", "pinyin": "huí​dá", "jp": "回答する"},
+    {"cn": "考试", "pinyin": "kǎo​shì", "jp": "試験"},
+    {"cn": "成功", "pinyin": "chéng​gōng", "jp": "成功"},
+    {"cn": "失败", "pinyin": "shī​bài", "jp": "失敗"},
+    {"cn": "困难", "pinyin": "kùn​nán", "jp": "困難"},
+]
+
+HSK3_VOCAB = [
+    {"cn": "今天", "pinyin": "jīn​tiān", "jp": "今日、きょう"},
+    {"cn": "帮助", "pinyin": "bāng​zhù", "jp": "助ける、手伝う"},
+    {"cn": "认为", "pinyin": "rèn​wéi", "jp": "～と考える"},
+    {"cn": "问题", "pinyin": "wèn​tí", "jp": "問題"},
+    {"cn": "回答", "pinyin": "huí​dá", "jp": "回答する"},
+    {"cn": "考试", "pinyin": "kǎo​shì", "jp": "試験"},
+]
+
+HSK4_VOCAB = [
+    {"cn": "发展", "pinyin": "fā​zhǎn", "jp": "発展"},
+    {"cn": "经济", "pinyin": "jīng​jì", "jp": "経済"},
+    {"cn": "文化", "pinyin": "wén​huà", "jp": "文化"},
+    {"cn": "社会", "pinyin": "shè​huì", "jp": "社会"},
+    {"cn": "政治", "pinyin": "zhèng​zhì", "jp": "政治"},
+    {"cn": "历史", "pinyin": "lì​shǐ", "jp": "歴史"},
+    {"cn": "科学", "pinyin": "kē​xué", "jp": "科学"},
+    {"cn": "技术", "pinyin": "jì​shù", "jp": "技術"},
+    {"cn": "教育", "pinyin": "jiào​yù", "jp": "教育"},
+    {"cn": "环境", "pinyin": "huán​jìng", "jp": "環境"},
+    {"cn": "国际", "pinyin": "guó​jì", "jp": "国際"},
+    {"cn": "关系", "pinyin": "guān​xì", "jp": "関係"},
+    {"cn": "问题", "pinyin": "wèn​tí", "jp": "問題"},
+    {"cn": "解决", "pinyin": "jiě​jué", "jp": "解決する"},
+    {"cn": "影响", "pinyin": "yǐng​xiǎng", "jp": "影響"},
+    {"cn": "变化", "pinyin": "biàn​huà", "jp": "変化"},
+    {"cn": "进步", "pinyin": "jìn​bù", "jp": "進歩"},
+    {"cn": "重要", "pinyin": "zhòng​yào", "jp": "重要"},
+    {"cn": "成功", "pinyin": "chéng​gōng", "jp": "成功"},
+    {"cn": "失败", "pinyin": "shī​bài", "jp": "失敗"},
+    {"cn": "困难", "pinyin": "kùn​nán", "jp": "困難"},
+    {"cn": "简单", "pinyin": "jiǎn​dān", "jp": "簡単"},
+    {"cn": "复杂", "pinyin": "fù​zá", "jp": "複雑"},
+    {"cn": "可能", "pinyin": "kě​néng", "jp": "可能"},
+    {"cn": "应该", "pinyin": "yīng​gāi", "jp": "～すべき"},
+    {"cn": "必须", "pinyin": "bì​xū", "jp": "～しなければならない"},
+    {"cn": "可以", "pinyin": "kě​yǐ", "jp": "～ことができる"},
+    {"cn": "希望", "pinyin": "xī​wàng", "jp": "希望する"},
+    {"cn": "认为", "pinyin": "rèn​wéi", "jp": "～と考える"},
+    {"cn": "觉得", "pinyin": "jué​de", "jp": "～と感じる"},
+    {"cn": "知道", "pinyin": "zhī​dào", "jp": "知っている"},
+    {"cn": "了解", "pinyin": "liǎo​jiě", "jp": "理解する"},
+    {"cn": "明白", "pinyin": "míng​bái", "jp": "理解する"},
+    {"cn": "学习", "pinyin": "xué​xí", "jp": "学習する"},
+    {"cn": "工作", "pinyin": "gōng​zuò", "jp": "働く"},
+    {"cn": "生活", "pinyin": "shēng​huó", "jp": "生活"},
+    {"cn": "朋友", "pinyin": "péng​you", "jp": "友達"},
+    {"cn": "家人", "pinyin": "jiā​rén", "jp": "家族"},
+    {"cn": "老师", "pinyin": "lǎo​shī", "jp": "先生"},
+    {"cn": "学生", "pinyin": "xué​shēng", "jp": "学生"},
+    {"cn": "公司", "pinyin": "gōng​sī", "jp": "会社"},
+    {"cn": "国家", "pinyin": "guó​jiā", "jp": "国"},
+    {"cn": "城市", "pinyin": "chéng​shì", "jp": "都市"},
+    {"cn": "时间", "pinyin": "shí​jiān", "jp": "時間"},
+    {"cn": "价格", "pinyin": "jià​gé", "jp": "価格"},
+    {"cn": "质量", "pinyin": "zhì​liàng", "jp": "品質"},
+    {"cn": "服务", "pinyin": "fú​wù", "jp": "サービス"},
+    {"cn": "会议", "pinyin": "huì​yì", "jp": "会議"},
+    {"cn": "报告", "pinyin": "bào​gào", "jp": "報告"},
+    {"cn": "计划", "pinyin": "jì​huà", "jp": "計画"},
+    {"cn": "准备", "pinyin": "zhǔn​bèi", "jp": "準備する"},
+    {"cn": "完成", "pinyin": "wán​chéng", "jp": "完成する"},
+    {"cn": "参加", "pinyin": "cān​jiā", "jp": "参加する"},
+    {"cn": "讨论", "pinyin": "tǎo​lùn", "jp": "議論する"},
+    {"cn": "决定", "pinyin": "jué​dìng", "jp": "決定する"},
+    {"cn": "建议", "pinyin": "jiàn​yì", "jp": "提案する"},
+    {"cn": "表达", "pinyin": "biǎo​dá", "jp": "表現する"},
+    {"cn": "说明", "pinyin": "shuō​míng", "jp": "説明する"},
+    {"cn": "解释", "pinyin": "jiě​shì", "jp": "説明する"},
+    {"cn": "研究", "pinyin": "yán​jiū", "jp": "研究する"},
+    {"cn": "分析", "pinyin": "fēn​xī", "jp": "分析する"},
+    {"cn": "总结", "pinyin": "zǒng​jié", "jp": "要約する"},
+    {"cn": "评价", "pinyin": "píng​jià", "jp": "評価する"},
+    {"cn": "比较", "pinyin": "bǐ​jiào", "jp": "比較する"},
+    {"cn": "选择", "pinyin": "xuǎn​zé", "jp": "選択する"},
+    {"cn": "同意", "pinyin": "tóng​yì", "jp": "同意する"},
+    {"cn": "反对", "pinyin": "fǎn​duì", "jp": "反対する"},
+    {"cn": "支持", "pinyin": "zhī​chí", "jp": "支持する"},
+    {"cn": "批评", "pinyin": "pī​píng", "jp": "批判する"}
+]
+
+# HSKレベル別の語彙データをまとめた辞書
+HSK_VOCAB = {
+    "HSK1": HSK1_VOCAB,
+    "HSK2": HSK2_VOCAB,
+    "HSK3": HSK3_VOCAB,
+    "HSK4": HSK4_VOCAB
+}
